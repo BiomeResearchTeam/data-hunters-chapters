@@ -38,9 +38,9 @@ bookcrumbs:
 
 # Links shown above the TOC in the sidebar
 # All "url" variables should have a leading slash.
-sidebar_nav_top:
-- label: Jekyll Chapterbook Theme
-  url: /index.html
+# sidebar_nav_top:
+# - label: Jekyll Chapterbook Theme
+#   url: /index.html
 
 # Links shown below the TOC in the sidebar
 # All "url" variables should have a leading slash.
