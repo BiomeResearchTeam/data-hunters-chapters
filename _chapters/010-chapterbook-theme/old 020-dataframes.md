@@ -1,7 +1,7 @@
 ---
 title: DataFrames
 slug: dataframes
-abstract: Uh, using a dataframe as tabular metadata? Then why not use Excel?
+abstract: Uh, ysing a dataframe as tabular metadata? Then why not use Excel?
 ---
 
 # I nostri metadati come DataFrame
@@ -38,4 +38,3 @@ Ah, nota che abbiamo usato una funzione predefinita di Python: `print()`. Questa
 ---
 
 # Let's code!
-    
