@@ -16,5 +16,5 @@ This resource is inspired by [Ruslan Klymentiev](https://github.com/rklymentiev/
 
 ## Contact
 * Name: Sara Fumagalli
-* email: <sara.fumagalli@unimib.it>
+* email: [sara.fumagalli@unimib.it](mailto:sara.fumagalli@unimib.it)
 
