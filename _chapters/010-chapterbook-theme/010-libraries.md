@@ -14,7 +14,7 @@ Quando pensiamo alle librerie, ci vengono in mente scaffali pieni di libri pieni
 # TGIL
 
 {% include figure.html
-    caption="Credits: ![https://www.interviewbit.com](https://www.interviewbit.com/blog/python-libraries/)"
+    caption="Credits: https://www.interviewbit.com/blog/python-libraries/"
     url="/assets/demo/0.1-libraries.png"
 %}
 
