@@ -12,7 +12,9 @@ Notes: Quando pensiamo alle librerie, ci vengono in mente scaffali pieni di libr
 
 # TGIL
 
-<center><img src="/assets/demo/0.1-libraries.png"></center>
+{% include figure.html
+    url="/assets/demo/0.1-libraries.png"
+%}
 
 Credits: https://www.interviewbit.com/blog/python-libraries/
 
