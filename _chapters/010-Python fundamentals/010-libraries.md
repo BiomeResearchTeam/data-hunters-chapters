@@ -1,5 +1,5 @@
 ---
-title: Libraries
+title: 📖 Libraries
 slug: libraries
 abstract: Introduction to Python libraries. Do they really contain books?
 ---

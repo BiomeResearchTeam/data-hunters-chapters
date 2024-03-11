@@ -1,5 +1,5 @@
 ---
-title: HANDS ON - DataFrames columns present
+title: ✏️ Hands on - DataFrames columns present
 slug: hands-on-dataframes-columns-present
 abstract: It's time to put everything you've learned into practice. Try to correctly complete this code!
 ---

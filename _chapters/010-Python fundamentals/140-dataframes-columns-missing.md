@@ -1,5 +1,5 @@
 ---
-title: DataFrames columns missing
+title: 📖 DataFrames columns missing
 slug: dataframes-columns-missing
 abstract: How to check if a column is present in the dataframe? Using a for loop and an if statement.
 ---

@@ -1,5 +1,5 @@
 ---
-title: HANDS ON - DataFrames columns missing difficult
+title: ✏️ Hands on - DataFrames columns missing difficult
 slug: hands-on-dataframes-columns-missing-difficult
 abstract: It's time to put everything you've learned into practice. Try to correctly complete this code!
 ---

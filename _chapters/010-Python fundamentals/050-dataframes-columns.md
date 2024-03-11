@@ -1,5 +1,5 @@
 ---
-title: DataFrames columns
+title: 📖 DataFrames columns
 slug: dataframes-columns
 abstract: What columns are in a DataFrame, aka the metadata? Let's learn how to view them, print them, and create a list containing their names
 ---

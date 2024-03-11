@@ -1,5 +1,5 @@
 ---
-title: DataFrames columns missing 2
+title: 📖 DataFrames columns missing 2
 slug: dataframes-columns-missing-2
 abstract: How to check if a column is present in the dataframe? And how do we check if the dataframe value matches the one in the paper?"
 ---

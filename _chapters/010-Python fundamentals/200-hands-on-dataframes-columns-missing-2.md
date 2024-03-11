@@ -1,5 +1,5 @@
 ---
-title: HANDS ON - DataFrames columns missing 2
+title: ✏️ Hands on - DataFrames columns missing 2
 slug: hands-on-dataframes-columns-missing-2
 abstract: It's time to put everything you've learned into practice. Try to correctly complete this code!
 ---

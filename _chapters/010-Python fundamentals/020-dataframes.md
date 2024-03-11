@@ -1,5 +1,5 @@
 ---
-title: DataFrames
+title: 📖 DataFrames
 slug: dataframes
 abstract: Uh, using a dataframe as tabular metadata? Then why not use Excel?
 ---

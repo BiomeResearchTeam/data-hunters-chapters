@@ -1,5 +1,5 @@
 ---
-title: SOLUTION - DataFrames columns extraction
+title: 🪄 Solution - DataFrames columns extraction
 slug: solution-dataframes-columns-extraction
 abstract: Did you successfully complete the code?
 ---

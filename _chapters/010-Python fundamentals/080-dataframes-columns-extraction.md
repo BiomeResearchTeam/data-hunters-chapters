@@ -1,5 +1,5 @@
 ---
-title: DataFrames columns extraction
+title: 📖 DataFrames columns extraction
 slug: dataframes-columns-extraction
 abstract: Can we focus on a single column within an entire dataframe? If so, can we easily and quickly obtain the values that a single column contains?
 ---

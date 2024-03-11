@@ -1,5 +1,5 @@
 ---
-title: SOLUTION - Saving DataFrame
+title: 🪄 Solution - Saving DataFrame
 slug: solution-saving-df
 abstract: Did you successfully complete the code?
 ---

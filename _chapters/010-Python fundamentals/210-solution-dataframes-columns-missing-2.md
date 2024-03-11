@@ -1,5 +1,5 @@
 ---
-title: SOLUTION - DataFrames columns missing 2
+title: 🪄 Solution - DataFrames columns missing 2
 slug: solution-dataframes-columns-missing-2
 abstract: Did you successfully complete the code?
 ---

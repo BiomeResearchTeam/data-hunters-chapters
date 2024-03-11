@@ -1,5 +1,5 @@
 ---
-title: SOLUTION - DataFrames columns present
+title: 🪄 Solution - DataFrames columns present
 slug: solution-dataframes-columns-present
 abstract: Did you successfully complete the code?
 ---

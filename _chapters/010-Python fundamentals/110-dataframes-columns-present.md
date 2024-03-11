@@ -1,5 +1,5 @@
 ---
-title: DataFrames columns present
+title: 📖 DataFrames columns present
 slug: dataframes-columns-present
 abstract: How do we manage columns that are always there? And how do we check if the dataframe value matches the one in the paper?
 ---
