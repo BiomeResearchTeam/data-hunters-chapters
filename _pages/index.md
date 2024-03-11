@@ -4,6 +4,4 @@ title: Data Hunters lessons
 subtitle: Python fundamentals for Data Hunters activity
 ---
 
-{% include figure.html
-    url="/assets/demo/logo.svg"
-%}
+<center><img src="/assets/demo/logo.svg"></center>
