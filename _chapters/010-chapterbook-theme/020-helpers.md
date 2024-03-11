@@ -1,97 +1,36 @@
 ---
-title: Helper includes
-slug: helpers
+title: DataFrames
+slug: dataframes
 abstract: Helper methods, of a sort, using Jekyll includes.
 ---
 
-In order for this theme to work natively with GitHub pages,
-it can't use any custom Jekyll plugins.
-But it _can_ do any logic and data manipulation supported by the template language, Liquid.
+# I nostri metadati come DataFrame
 
-So this theme makes extensive use of Liquid templates to act as "helpers",
-by including them in a page and passing them parameters using Jekyll's standard [`include`](https://jekyllrb.com/docs/includes/) tag.
+<center><img src="imgs/1.1-df.png"></center>
 
-## Chapter links
+Credits: https://www.geeksforgeeks.org/python-pandas-dataframe/
 
-The `chapter-link.html` helper renders a link to the chapter with the specified `slug`,
-using its current title and chapter number.
-
-{% raw %}
-```liquid
-See {% include chapter-link.html slug="variables" %}.
-```
-{% endraw %}
-
-...renders as: See {% include chapter-link.html slug="variables" %}.
-
-
-Parameters:
-- `slug`: Required. The `slug` of the chapter to link to.
-- `anchor`: An optional anchor tag to append to the chapter link.
-
-## Tables of contents
-
-The `chapterbook-toc.html` helper allows you to make a table of contents page,
-including chapter abstracts (if any).
-
-Parameters:
-- `show_drafts`: If `true`, also show draft chapters. Useful for showing an "outline" view of the book.
-
-
-See example [Table of Contents](toc.html), rendered with:
-{% raw %}
-```liquid
-{% include chapterbook-toc.html %}
-```
-{% endraw %}
-
-See example [draft outline](outline.html), rendered with:
-{% raw %}
-```liquid
-{% include chapterbook-toc.html show_drafts=true %}
-```
-{% endraw %}
-
-## Figures
-
-The `figure.html` helper renders images as figures in the book.
-
-Parameters:
-- `url`: The relative URL to the image (appended to `site.baseurl`).
-- `caption`: An optional caption to render beneath the figure.
-- `class`: an optional `class` attribute to add to the the HTML `<figure>` tag.
-
-For example:
-
-{% raw %}
-```jekyll
-{% include figure.html
-    caption="C major chord shape."
-    url="/assets/demo/C-maj.svg"
-    class="row"
-%}
-```
-{% endraw %}
-
-...renders as:
-
-{% include figure.html
-    caption="C major chord shape."
-    url="/assets/demo/C-maj.svg"
-    class="row"
-%}
-
-
-## Theme variables
-
-This theme makes a number of variables related to chapters and parts available to markdown files and Liquid templates.
-
-See {% include chapter-link.html slug="variables" %} for details.
-
-
+Notes: Un DataFrame rappresenta una tabella bidimensionale costituita da righe e colonne, simile a un foglio di calcolo Excel. Il DataFrame è uno dei vari tipi di variabile che potrai trovare in Python! In questo workshop, il DataFrame costituisce la variabile principale: infatti nei progetti che affronteremo, i metadati da curare saranno trattati come DataFrame. Quindi, gran parte del nostro lavoro consisterà nella manipolazione e nell'analisi dei metadati strutturati in DataFrame.
 
 ---
+
+# Importare il file di metadati come DataFrame
+
+Per prima cosa dobbiamo leggere il file di metadati come un DataFrame:
+
+```python
+import pandas as pd
+
+df = pd.read_csv("ERP020892_df.tsv", sep="\t")
+print(df)
 ```
-This file is located at: {{ page.path }}
-```
+
+<center><img src="imgs/1.1-print_df.png"></center>
+
+Notes: Ecco, abbiamo iniziato importando la libreria Pandas per poter sfruttare le sue funzioni. La prima funzione che abbiamo esplorato è `read_csv`, essenziale per leggere un file tabulare (csv, tsv, ecc.) e convertirlo in un DataFrame. In questa funzione, abbiamo indicato il nome del file tra virgolette (perché è una stringa, un altro tipo di variabile in Python!) e il separatore del file. Nel nostro caso, i metadati sono in formato TSV (Tab-Separated Values), cioè i dati sono separati da un tab. Per questo motivo, nella funzione dobbiamo aggiungere dopo il nome del file, l'opzione `sep="\t"` per indicare alla funzione che i dati sono separati da tabulazione.
+
+Ah, nota che abbiamo usato una funzione predefinita di Python: `print()`. Questa funzione è utilizzata per visualizzare ciò che viene inserito tra le sue parentesi. In questa caso gli abbiamo chiesto di mostrarci il DataFrame df.
+
 ---
+
+# Let's code!
