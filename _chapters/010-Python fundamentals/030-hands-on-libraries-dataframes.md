@@ -1,5 +1,5 @@
 ---
-title: HANDS ON - Libraries & DataFrames
+title: ✏️ Hands on - Libraries & DataFrames
 slug: hands-on-libraries-dataframes
 abstract: It's time to put everything you've learned into practice. Try to correctly complete this code!
 ---

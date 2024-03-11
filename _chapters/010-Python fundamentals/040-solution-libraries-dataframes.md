@@ -1,5 +1,5 @@
 ---
-title: SOLUTION - Libraries & DataFrames
+title: 🪄 Solution - Libraries & DataFrames
 slug: solution-libraries-dataframes
 abstract: Did you successfully complete the code?
 ---

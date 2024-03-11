@@ -17,9 +17,9 @@ baseurl_canonical: https://biomeresearchteam.github.io/data-hunters-chapters
 # Set a url to link to a copyright page.
 # Set a start_year to have the copyright render as "start_year - current_year" (if the years are different)
 # Set copyright: false to disable.
-copyright:
-  start_year: 2023
-  url: /book.html
+# copyright:
+#   start_year: 2023
+#   url: /book.html
 
 # Customize the link favicon in header. Will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path: assets/gitbook/images/favicon.ico
@@ -55,12 +55,12 @@ bookcrumbs:
 bottom_nav:
 - label: Home
   url: /index.html
-- label: Book
-  url: /book.html
+# - label: Book
+#   url: /book.html
 - label: GitHub
   url: https://github.com/BiomeResearchTeam/data-hunters-chapters
-- label: Privacy
-  url: /privacy.html
+# - label: Privacy
+#   url: /privacy.html
 
 
 # Whether to show chapter headings as a table of contents at the top of each chapter page.
