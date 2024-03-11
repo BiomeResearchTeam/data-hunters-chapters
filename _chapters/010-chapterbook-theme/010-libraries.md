@@ -14,7 +14,7 @@ Quando pensiamo alle librerie, ci vengono in mente scaffali pieni di libri pieni
 # TGIL
 
 {% include figure.html
-    caption="Credits: [https://www.interviewbit.com](https://www.interviewbit.com/blog/python-libraries/)"
+    caption="Credits: ![https://www.interviewbit.com](https://www.interviewbit.com/blog/python-libraries/)"
     url="/assets/demo/0.1-libraries.png"
 %}
 
@@ -25,7 +25,7 @@ Thank God Is a Library: eh meno male che esistono le librerie! Come detto, le li
 # Una varietà di librerie tra cui scegliere
 
 {% include figure.html
-    caption="Credits: [https://medium.com](https://medium.com/@cyber-news/python-libraries-for-data-science-your-essential-toolbox-c21e7d7826ba)"
+    caption="Credits: https://medium.com/@cyber-news/python-libraries-for-data-science-your-essential-toolbox-c21e7d7826ba"
     url="/assets/demo/0.3-libraries-examples.png"
 %}
 
@@ -37,7 +37,7 @@ Python dispone della cosiddetta Python Standard Library che includde una serie d
 # PANDAS
 
 {% include figure.html
-    caption="Credits: [https://realpython.com](https://realpython.com/pandas-dataframe/)"
+    caption="Credits: https://realpython.com/pandas-dataframe/"
     url="/assets/demo/0.4-pandas.png"
 %}
 
