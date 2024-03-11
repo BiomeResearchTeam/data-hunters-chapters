@@ -1,7 +1,7 @@
 ---
-title: Getting started
-slug: getting-started
-abstract: A guide to quickly setting up your site with this theme.
+title: Libraries
+slug: libraries
+abstract: Introduction to Python libraries. Do they contain books?
 ---
 
 This is an example chapter page.

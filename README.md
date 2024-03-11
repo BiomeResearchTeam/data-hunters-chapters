@@ -4,8 +4,6 @@ title: Jekyll Chapterbook Theme
 permalink: /
 ---
 
-Hello!
-
 This is a [Jekyll](https://jekyllrb.com/) theme based on [GitBook](https://www.gitbook.com/) that adds support for easily organizing pages into book chapters and parts.
 It doesn't rely on any plugins,
 so it works natively with [GitHub Pages](https://pages.github.com/).
