@@ -1,11 +1,11 @@
 remote_theme: biomeresearchteam/data-hunters-chapters
 
-title: Jekyll Chapterbook
-longtitle: Jekyll Chapterbook Theme
-author: Jason Grimes
-email: jason@grimesit.com
+title: Data Hunters lessons
+#longtitle: Jekyll Chapterbook Theme
+author: Sara Fumagalli
+email: sara.fumagalli@unimib.it
 description: >
-  A Jekyll theme based on GitBook with support for chapters and parts.
+  An online platform designed for instructing Python fundamentals in the Data Hunters workshop activity. Developed using the Jekyll theme generously provided by Jason Grimes.
 
 # If baseurl_canonical is set, 
 # a <link rel="canonical"> tag will be added to the head of each page,
@@ -44,11 +44,11 @@ sidebar_nav_top:
 
 # Links shown below the TOC in the sidebar
 # All "url" variables should have a leading slash.
-sidebar_nav_bottom:
-- label: Draft outline
-  url: /outline.html
-- label: Fork at GitHub
-  url: https://github.com/jasongrimes/jekyll-chapterbook/fork
+# sidebar_nav_bottom:
+# - label: Draft outline
+#   url: /outline.html
+# - label: Fork at GitHub
+#   url: https://github.com/jasongrimes/jekyll-chapterbook/fork
 
 # Navigation shown at the bottom of the page
 # All "url" variables should have a leading slash.
@@ -58,7 +58,7 @@ bottom_nav:
 - label: Book
   url: /book.html
 - label: GitHub
-  url: https://github.com/jasongrimes/jekyll-chapterbook
+  url: https://github.com/BiomeResearchTeam/data-hunters-chapters
 - label: Privacy
   url: /privacy.html
 
@@ -84,7 +84,7 @@ sidebar_toc:
 # Show a link to edit each page on GitHub
 github_edit:
   enabled: true
-  base_url: https://github.com/jasongrimes/jekyll-chapterbook/edit/master/
+  base_url: https://github.com/BiomeResearchTeam/data-hunters-chapters/edit/master/
 
 # Custom CSS
 extra_css:
