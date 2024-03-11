@@ -13,10 +13,9 @@ Notes: Quando pensiamo alle librerie, ci vengono in mente scaffali pieni di libr
 # TGIL
 
 {% include figure.html
+    caption="Credits: https://www.interviewbit.com/blog/python-libraries/"
     url="/assets/demo/0.1-libraries.png"
 %}
-
-Credits: https://www.interviewbit.com/blog/python-libraries/
 
 Notes: Thank God Is a Library: eh meno male che esistono le librerie! Come detto, le librerie contengono pacchetti di codice già scritto e che eseguono varie operazioni, evitandoci di riscrivere da zero ogni volta! Insomma, un ottimo affare.
 
@@ -24,9 +23,10 @@ Notes: Thank God Is a Library: eh meno male che esistono le librerie! Come detto
 
 # Una varietà di librerie tra cui scegliere
 
-<center><img src="/assets/demo/0.3-libraries-examples.png"></center>
-
-Credits: https://medium.com/@cyber-news/python-libraries-for-data-science-your-essential-toolbox-c21e7d7826ba
+{% include figure.html
+    caption="Credits: https://medium.com/@cyber-news/python-libraries-for-data-science-your-essential-toolbox-c21e7d7826ba"
+    url="/assets/demo/0.3-libraries-examples.png"
+%}
 
 Notes: Python dispone della cosiddetta Python Standard Library che includde una serie di moduli predefiniti che vengono forniti con ogni installazione di Python. Tuttavia oltre a questa, c'è un'enorme varietà di altre librerie che possono essere scaricate! Nota che di solito una libreria è specifica per un certo argomento.
 
@@ -34,9 +34,11 @@ Notes: Python dispone della cosiddetta Python Standard Library che includde una 
 
 # PANDAS
 
-<center><img src="/assets/demo/0.4-pandas.png"></center>
+{% include figure.html
+    caption="Credits: https://realpython.com/pandas-dataframe/"
+    url="/assets/demo/0.4-pandas.png"
+%}
 
-Credits: https://realpython.com/pandas-dataframe/
 
 Notes: Per questo workshop la libreria che utilizzeremo è **Pandas**. Pandas è una libreria open-sorce, facile e flessibile, ampiamente utilizzata dai data scientist per la manipolazione e l'analisi dei dati. 
 [Website](https://pandas.pydata.org/) || [Documentation](https://pandas.pydata.org/pandas-docs/)
