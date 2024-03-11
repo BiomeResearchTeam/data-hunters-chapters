@@ -27,7 +27,7 @@ df = pd.read_csv("ERP020892_df.tsv", sep="\t")
 print(df)
 ```
 
-{% include figure.html"
+{% include figure.html
     url="/assets/demo/1.1-print_df.png"
 %}
 
