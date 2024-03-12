@@ -4,7 +4,7 @@ slug: hands-on-dataframes-columns-missing-difficult
 abstract: It's time to put everything you've learned into practice. Try to correctly complete this code!
 ---
 
-A questo punto aggiungiamo i nuovi metodi imparati (.lower() e .append()) al for e all'if, prima di ritornare a curare i nostri metadati.
+A questo punto aggiungiamo i nuovi metodi imparati (`.lower()` e `.append()`) al `for` e all'`if`, prima di ritornare a curare i nostri metadati.
 
 # Ciclo for
 

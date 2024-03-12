@@ -4,7 +4,7 @@ slug: solution-dataframes-columns-missing-difficult
 abstract: Did you successfully complete the code?
 ---
 
-A questo punto aggiungiamo i nuovi metodi imparati (.lower() e .append()) al for e all'if, prima di ritornare a curare i nostri metadati.
+A questo punto aggiungiamo i nuovi metodi imparati (`.lower()` e .`append()`) al `for` e all'`if`, prima di ritornare a curare i nostri metadati.
 
 # Ciclo for
 
