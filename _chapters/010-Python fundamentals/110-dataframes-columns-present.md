@@ -76,10 +76,10 @@ Supponiamo che, durante la verifica di questa colonna, abbiamo riscontrato un va
 
 # Let's manipulate the Dataframe: COLONNE SEMPRE PRESENTI
 
-Non c'è regola senza eccezioni... Può capitare che non esista una delle tre colonne che ti abbiamo detto essere sempre presenti! E allora che fare? Semplice, crea una nuova colonna e assegna il valore che hai trivato nel paper:
+Non c'è regola senza eccezioni... Può capitare che non esista una delle tre colonne che ti abbiamo detto essere sempre presenti! E allora che fare? Semplice, crea una nuova colonna e assegna il valore che hai trovato nel paper:
 
 ```python
-modello = df_senza_colonne_vuote["instrument_model"].unique()
+modello = df["instrument_model"].unique()
 print(modello)
 ```
 
@@ -139,7 +139,7 @@ df["SKIOME_instrument_model"] = "Illumina HiSeq 2000"
 ['Illumina HiSeq 2000']
 ```
 
-Oh-oh! Hai tentato di estrarre il valore dalla colonna `instrument_model` e hai ottenuto una serie di errori. Non preoccuparti, l'errore è dovuto al fatto che questa colonna è assente nei metadati. Nessun problema se la colonna non esiste: puoi crearla! Hai già le competenze necessarie per farlo.
+Oh-oh! Hai tentato di estrarre il valore dalla colonna `instrument_model` e hai ottenuto una serie di errori. Non preoccuparti, l'errore è dovuto al fatto che questa colonna è assente nei metadati. Nessun problema se la colonna non esiste: puoi crearla! Hai già tutte le competenze necessarie per farlo 💫
 
 ---
 
