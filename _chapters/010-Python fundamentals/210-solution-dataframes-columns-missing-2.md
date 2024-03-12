@@ -50,7 +50,8 @@ if len(colonne_trovate)>0:
 else:
     print("nessuna colonna trovata!")
 
-#supponiamo che non è stata trovata nessuna colonna contente "Italy": crea la colonna "SKIOME_individuals_nationality"
+#supponiamo che non è stata trovata nessuna colonna contente "Italy": 
+#crea la colonna "SKIOME_individuals_nationality"
 df["SKIOME_individuals_nationality"] = "Italy"
 ```
 
