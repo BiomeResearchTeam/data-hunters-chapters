@@ -10,8 +10,8 @@ OK, passiamo al cuore dell'attività del workshop: avete trovato le informazioni
 
 <div class="table-wrapper" markdown="block">
 
-|              colonna             |               significato             |        valori        |
-|:--------------------------------:|:--------------------------------------|:--------------------:|
+|              colonna             |                     significato                     |        valori        |
+|:---------------------------------|:----------------------------------------------------|:---------------------|
 | "library_strategy"  | strategia di sequenziamento | AMPLICON, WGS |
 | "instrument_platform" | piattaforma di sequenziamento | ILLUMINA, ION TORRENT, ... |
 | "instrument_model" | modello di sequenziatore | ILLUMINA MiSeq, ILLUMINA NovaSeq, ... |
@@ -22,18 +22,7 @@ OK, passiamo al cuore dell'attività del workshop: avete trovato le informazioni
 | "SKIOME_body_site" | sito del corpo campionato | hands, forehead, ... |
 | "SKIOME_status" | condizione o stato che si attribuisce ai soggetti campionati in base alle diverse ipotesi considerate | healthy vs disease, rural vs urban, ... |
 
-
-* "library_strategy": la strategia di sequenziamento (AMPLICON, WGS)
-* "instrument_platform": la piattaforma di sequenziamento (ILLUMINA, ION TORRENT, ...)
-* "instrument_model": modello di sequenziatore (ILLUMINA MiSeq, ILLUMINA NovaSeq, ...)
-* "SKIOME_amplicon_target": amplicone targettato (16S, ITS, ...)
-* "SKIOME_target_region": regione ipervariabile dell amplicone (V1, V3-V4, ...)
-* "SKIOME_primer": primer (515: GTGCCAGCMGCCGCGGTAA, 805: GGACTACNVGGGTWTCTAAT, ...)
-* "SKIOME_individuals_nationality": nazionalità degli individui campionati (Italy, Spain, ...)
-* "SKIOME_body_site": sito del corpo campionato (hands, forehead, ...)
-* "SKIOME_status": condizione o stato che si attribuisce ai soggetti campionati in base alle diverse ipotesi considerate (healthy vs disease, rural vs urban, ...)
-
-Notes: Le prime 3 colonne ("library_strategy", "instrument_platform", "instrument_model") sono **sempre** presenti nei metadati che andrete a curare, mentre le altre 7 potrebbero essere presenti o meno. Di conseguenza, ci sono due strade che dovrete percorrere:
+Le prime 3 colonne ("library_strategy", "instrument_platform", "instrument_model") sono **sempre** presenti nei metadati che andrete a curare, mentre le altre 7 potrebbero essere presenti o meno. Di conseguenza, ci sono due strade che dovrete percorrere:
 
 * Per le **COLONNE SEMPRE PRESENTI** ("library_strategy", "instrument_platform", "instrument_model") dovrete verificare che i valori contenuti in queste colonne coincidano con quelli trovati nel paper. Se corrispono, ottimo! non dovete fare nulla e potete passare alla prossima colonna. Se, invece, i valori nelle colonne sono diversi da quelli che avete trovato nel paper allora dovete modificarli.
 
