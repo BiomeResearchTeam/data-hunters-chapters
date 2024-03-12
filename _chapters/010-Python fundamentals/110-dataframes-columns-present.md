@@ -22,7 +22,9 @@ OK, passiamo al cuore dell'attività del workshop: avete trovato le informazioni
 | "SKIOME_body_site" | sito del corpo campionato | hands, forehead, ... |
 | "SKIOME_status" | condizione o stato che si attribuisce ai soggetti campionati in base alle diverse ipotesi considerate | healthy vs disease, rural vs urban, ... |
 
-Le prime 3 colonne ("library_strategy", "instrument_platform", "instrument_model") sono **sempre** presenti nei metadati che andrete a curare, mentre le altre 7 potrebbero essere presenti o meno. Di conseguenza, ci sono due strade che dovrete percorrere:
+Nota i valori come sono scritti per maiuscole e minuscole, così dovranno essere inseriti nei metadati! Per dubbi su come scrivere correttamente il valore contattaci!
+
+Le prime 3 colonne ("library_strategy", "instrument_platform", "instrument_model") sono **sempre** presenti nei metadati che andrete a curare, mentre le altre 6 potrebbero essere presenti o meno. Di conseguenza, ci sono due strade che dovrete percorrere:
 
 * Per le **COLONNE SEMPRE PRESENTI** ("library_strategy", "instrument_platform", "instrument_model") dovrete verificare che i valori contenuti in queste colonne coincidano con quelli trovati nel paper. Se corrispono, ottimo! non dovete fare nulla e potete passare alla prossima colonna. Se, invece, i valori nelle colonne sono diversi da quelli che avete trovato nel paper allora dovete modificarli.
 
