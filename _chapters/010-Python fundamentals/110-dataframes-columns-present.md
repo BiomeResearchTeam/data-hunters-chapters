@@ -8,6 +8,21 @@ abstract: How do we manage columns that are always there? And how do we check if
 
 OK, passiamo al cuore dell'attività del workshop: avete trovato le informazioni nel paper e ora volete curare i metadati di quel progetto. Le colonne che dovrete curare per ogni progetto sono 9:
 
+<div class="table-wrapper" markdown="block">
+
+|              colonna             |               significato             |        valori        |
+|:--------------------------------:|:--------------------------------------|:--------------------:|
+| "library_strategy"  | strategia di sequenziamento | AMPLICON, WGS |
+| "instrument_platform" | piattaforma di sequenziamento | ILLUMINA, ION TORRENT, ... |
+| "instrument_model" | modello di sequenziatore | ILLUMINA MiSeq, ILLUMINA NovaSeq, ... |
+| "SKIOME_amplicon_target" | amplicone targettato | 16S, ITS, ... |
+| "SKIOME_target_region" | regione ipervariabile dell amplicone | V1, V3-V4, ... |
+| "SKIOME_primer" | primer | 515: GTGCCAGCMGCCGCGGTAA, 805: GGACTACNVGGGTWTCTAAT, ... |
+| "SKIOME_individuals_nationality" | nazionalità degli individui | Italy, Spain, ... |
+| "SKIOME_body_site" | sito del corpo campionato | hands, forehead, ... |
+| "SKIOME_status" | condizione o stato che si attribuisce ai soggetti campionati in base alle diverse ipotesi considerate | healthy vs disease, rural vs urban, ... |
+
+
 * "library_strategy": la strategia di sequenziamento (AMPLICON, WGS)
 * "instrument_platform": la piattaforma di sequenziamento (ILLUMINA, ION TORRENT, ...)
 * "instrument_model": modello di sequenziatore (ILLUMINA MiSeq, ILLUMINA NovaSeq, ...)
@@ -41,7 +56,7 @@ print(strategia)
 ['AMPLICON']
 ```
 
-Per verificare che il valore presente nella colonna da curare sempre presente sia lo stesso trovato nel paper, basta sfruttare quello che hai imparato finora! Quindi abbiamo estratto il valore unico dalla colonna `library_strategy` e l'abbiamo stampato. TA-DAAN: `AMPLICON`. Il valore trovato è corrisponde con quello che abbiamo letto nel paper e quindi possiamo procedere con un'altra colonna.
+Per verificare che il valore presente nella colonna da curare sempre presente sia lo stesso trovato nel paper, basta sfruttare quello che hai imparato finora! Quindi abbiamo estratto il valore unico dalla colonna `library_strategy` e l'abbiamo stampato. TA-DAAN: `AMPLICON`. Il valore trovato corrisponde a quello che abbiamo letto nel paper e quindi possiamo procedere con un'altra colonna.
 
 ---
 
