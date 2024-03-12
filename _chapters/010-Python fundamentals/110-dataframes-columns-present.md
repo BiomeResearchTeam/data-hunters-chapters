@@ -63,11 +63,11 @@ print(piattaforma)
 ```
 
 ```python
-df["SKIOME_instrument_platform"] = "AMPLICON"
+df["SKIOME_instrument_platform"] = "ILLUMINA"
 ```
 
 ```out
-["AMPLICON"]
+["ILLUMINA"]
 ```
 
 Supponiamo che, durante la verifica di questa colonna, abbiamo riscontrato un valore diverso da quello dichiarato nel paper. Niente di più semplice: dobbiamo creare una nuova colonna contenente il valore corretto. Per fare ciò, dobbiamo specificare il nome del DataFrame (`df`) seguito dalle parentesi quadre (`[]`), all'interno delle quali indichiamo il nome della nuova colonna. Quando crei una nuova colonna, segui il nome suggerito nella lista iniziale delle colonne da curare. Nota che, se stai curando quella particolare colonna, devi aggiungere come prefisso "SKIOME_". Questo aiuterà chi utilizzerà la raccolta a capire che la colonna è stata curata!
