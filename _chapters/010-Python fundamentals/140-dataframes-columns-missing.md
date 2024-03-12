@@ -8,7 +8,7 @@ abstract: How to check if a column is present in the dataframe? Using a for loop
 
 OK passiamo alle altre 6 colonne che potrebbero non esserci. Iniziamo a cercarle! Per farlo useremo nuove strutture di Python, ma niente paura: ti spieghiamo tutto!
 
-Supponiamo di voler cercare se nel nostro DataFrame `df` esiste una colonna che contiene l'informazione "Hands", cioè il sito di campionamento del microbioma.
+Supponiamo di voler cercare se nel nostro DataFrame `df` esiste una colonna che contiene l'informazione "Hands", cioè il sito di campionamento del microbioma. Ma da dove arriva il valore "Hands"? L'abbiamo trovato nel paper! In pratica: per capire se esiste una colonna (in questo caso quella sul sito di campionamento) cerchiamo il valore indicato nel paper. Infatti il ragionamento che facciamo è il seguente: se dovesse esistere una colonna specifica sul sito di campionamento allora deve contenere il valore che è stato indicato nel paper.
 
 ```python
 #iniziamo con qualcosa che conosciamo già: creiamo una lista delle colonne del nostra DataFrame 

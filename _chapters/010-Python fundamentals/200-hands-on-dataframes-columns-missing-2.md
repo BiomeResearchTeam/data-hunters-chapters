@@ -6,7 +6,7 @@ abstract: It's time to put everything you've learned into practice. Try to corre
 
 Daje, dopo questo step è tutta in discesa!
 
-POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Nel primo esercizio, verifica la correttezza del valore contenuto nella colonna onnipresente. Nel secondo esercizio,verifica la presenza di una delle 7 colonne non sempre presenti, ed eventualmente la correttezza dell'informazione contenuta!
+POV: sei un partecipante del workshop Data Hunters e vuoi curare i metadati del progetto ERP131433. Nel primo esercizio, verifica la correttezza del valore contenuto in una delle colonne sempre presenti. Nel secondo esercizio, verifica la presenza di una delle 6 colonne non sempre presenti, ed eventualmente la correttezza dell'informazione contenuta!
 
 # ESERCIZIO 1
 
