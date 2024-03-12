@@ -4,6 +4,8 @@ slug: hands-on-dataframes-columns-missing-difficult
 abstract: It's time to put everything you've learned into practice. Try to correctly complete this code!
 ---
 
+A questo punto aggiungiamo i nuovi metodi imparati (.lower() e .append()) al for e all'if, prima di ritornare a curare i nostri metadati.
+
 # Ciclo for
 
 Immagina che la lista della spesa è stata scritta dal tuo cuginetto che va in seconda elementare. Le lettere sono state scritte randomicamente un po' maiuscole e un po' minuscole. Inoltre immagina che tu sia di frettissima e non sia riuscito a leggerla in anticipo, quindi ti trovi al banco frigo del supermercato, e l'unica cosa che ti interessa sapere a questo punto è: c'è il mascarpone nella lista della spesa?
