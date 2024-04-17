@@ -18,11 +18,10 @@ colonne = df.columns.to_list()
 colonne_trovate = []
 
 for colonna in colonne:
-    if "Hands".lower() in colonna.lower():
+    if (df[colonna] == "Hands").any():
         colonne_trovate.append(colonna)
     else:
         pass
-
 #a questo punto possiamo misurare la lunghezza della lista colonne_trovate: se la lunghezza è 
 #maggiore di 0 significa che è stata trovata almeno una colonna che contiene l'informazione 
 #che stiamo cercando!
@@ -65,13 +64,11 @@ Cosa abbiamo fatto in questa slide? Abbiamo controllato se la lista `colonne_tro
 Altro esempio. Supponiamo di cercare se esiste la colonna "target_region", cercando il valore "V3-V4" che abbiamo trovato nel paper (questa informazione è inventata per l'esempio).
 
 ```python
-#riscriviamo i passaggi già visti in precedenza:
-colonne = df.columns.to_list()
-
+colonne = df.columns.tolist()
 colonne_trovate = []
 
 for colonna in colonne:
-    if "V3-V4".lower() in colonna.lower():
+    if (df[colonna] == "V3-V4").any():
         colonne_trovate.append(colonna)
     else:
         pass
@@ -102,5 +99,27 @@ In questo caso abbiamo cercato se esistesse un'altra delle 6 colonne: target_reg
 Come puoi osservare, l'output fornisce il nome della colonna in cui è stato individuato "V3-V4" e il valore unico presente in quella colonna. In entrambe le colonne, puoi notare che il valore "V3-V4" è mescolato con altre informazioni, da cui possiamo dedurre l'assenza di una colonna specifica denominata "target_region". Perfetto! Allora dobbiamo crearla!
 
 ---
+
+Infine ti facciamo vedere la versione più complicata di quanto fatto finora. Questa versione è utile per trovare l'informazione che vorrai, indipendentemente da maiuscole e minuscole, in qualsiasi colonna che la contiene mischiata ad altre informazioni. Questo comando ti svincola da trovare la colonna che contiene solo ed esattamente il valore che cerchi, in modo da avere una visuale maggiore di ciò che accade nei metadati che stai curando.
+
+```python
+colonne = df.columns.tolist()
+colonne_trovate = []
+
+pattern = re.compile(r"valore che volete cercare", flags=re.IGNORECASE)
+
+for colonna in colonne:
+    if df[colonna].astype(str).str.contains(pattern).any():
+        colonne_trovate.append(colonna)
+    else:
+        pass
+
+if len(colonne_trovate)>0:
+    for colonna in colonne_trovate:
+        print(colonna, df[colonna].unique())
+else:
+    print("nessuna colonna trovata!")
+```
+
 
 # Let's code!

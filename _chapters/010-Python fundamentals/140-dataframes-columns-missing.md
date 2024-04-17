@@ -19,7 +19,7 @@ colonne_trovate = []
 
 #NOVITÀ: CICLO FOR e CONDIZIONE IF
 for colonna in colonne:
-    if "Hands".lower() in colonna.lower():
+    if (df[colonna] == "Hands").any():
         colonne_trovate.append(colonna)
     else:
         pass
@@ -29,8 +29,7 @@ MMH con calma: cosa abbiamo visto a sinistra? Andiamo in ordine:
 * Abbiamo creato una lista contenente i nomi delle colonne del nostro DataFrame df
 * Abbiamo creato una lista vuota, perché intendiamo popolarla con i nomi delle colonne in cui troviamo il valore "Hands"
 * Abbiamo utilizzato un ciclo `for` per considerare una colonna alla volta presente nella lista `colonne`
-* Per ogni colonna abbiamo verificato con l'istruzione `if` se il termine "Hands" fosse presente in quella colonna
-* In particolare, abbiamo usato il metodo `.lower()` per rendere minuscolo ciò che precede il punto. In questo modo ci siamo assicurati di cercare il nostro termine in minuscolo e confrontarlo con altri termini in minuscolo contenuti in ogni colonna. Come ti ricorderei, in Python minuscole e maiuscole indicano cose ben diverse!
+* Per ogni colonna abbiamo verificato con l'istruzione `if` se il termine "Hands" fosse presente in quella colonna. In particolare abbiamo cercato se fosse presente almeno una volta grazie al methodo `.any()`
 * Se il valore "hands" è presente nella colonna, abbiamo usato il metodo `.append()` per appendere la `colonna` nella lista di `colonne_trovate`.
 * Se il valore "hands" non è presente nella colonna, ndicato di passare alla prossima colonna senza aggiungere quella `colonna` alla lista `colonne_trovate`.
 
