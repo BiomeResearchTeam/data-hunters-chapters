@@ -30,6 +30,7 @@ df___ = "Illumina MiSeq"
 
 ```python
 import pandas as pd
+import ___
 
 df = pd.read_csv("ERP131433_df.tsv", sep="\t")
 
@@ -37,8 +38,10 @@ colonne = df.___.___()
 colonne_trovate = ___
 
 #cerca il valore "Italy" per capire se esiste una colonna "individuals_nationality"
+pattern = ___.compile(r"Italy", flags=re.___)
+
 for colonna in ___:
-    if ___.lower() in colonna.___():
+    if df[colonna].astype(str).str.contains(pattern).any():
         ___.append(___)
     else:
         pass

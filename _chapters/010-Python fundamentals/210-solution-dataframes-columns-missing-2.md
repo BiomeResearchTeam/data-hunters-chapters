@@ -31,15 +31,18 @@ df["SKIOME_instrument_model"] = "Illumina MiSeq"
 
 ```python
 import pandas as pd
+import re
 
 df = pd.read_csv("ERP131433_df.tsv", sep="\t")
 
 colonne = df.columns.to_list()
 colonne_trovate = []
 
-#cerca il valore Italy per capire se esiste una colonna "individuals_nationality"
+#cerca il valore "Italy" per capire se esiste una colonna "individuals_nationality"
+pattern = re.compile(r"Italy", flags=re.IGNORECASE)
+
 for colonna in colonne:
-    if "Italy".lower() in colonna.lower():
+    if df[colonna].astype(str).str.contains(pattern).any():
         colonne_trovate.append(colonna)
     else:
         pass
